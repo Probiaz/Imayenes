@@ -77,6 +77,7 @@
             this.discc.TabIndex = 3;
             this.discc.TabStop = true;
             this.discc.Text = "Explorar Disco C";
+            this.discc.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Discc_LinkClicked);
             // 
             // eleima
             // 

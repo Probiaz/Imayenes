@@ -37,5 +37,11 @@ namespace Imagina
             ucol.LinkVisited = true;
             System.Diagnostics.Process.Start("IExplore", "http://www.ucol.mx");
         }
+
+        private void Discc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            discc.LinkVisited = true;
+            System.Diagnostics.Process.Start("C:\\");
+        }
     }
 }
